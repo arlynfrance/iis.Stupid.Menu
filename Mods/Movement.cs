@@ -1369,7 +1369,7 @@ namespace iiMenu.Mods
 
         public static void ChangeWallWalkStrength(bool positive = true)
         {
-            float[] strengthAmounts = new float[] { 2f, 5f, 9.81f, 15f, 50f };
+            float[] strengthAmounts = new float[] { 3.53f, 5f, 9.81f, 15f, 50f };
             string[] strengthNames = new string[] { "Very Weak", "Weak", "Normal", "Strong", "Very Strong" };
 
             if (positive)
